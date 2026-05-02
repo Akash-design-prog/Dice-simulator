@@ -14,7 +14,7 @@ function App() {
 
   const fetchHistory = async () => {
     try {
-      const response = await fetch('http://localhost:5000/api/history')
+      const response = await fetch('/api/history')
       const data = await response.json()
       setHistory(data)
     } catch (error) {
@@ -28,7 +28,7 @@ function App() {
     // Artificial delay to make the animation feel "real"
     setTimeout(async () => {
       try {
-        const response = await fetch('http://localhost:5000/api/roll')
+        const response = await fetch('/api/roll')
         const data = await response.json()
         setCurrentRoll(data.result)
         fetchHistory() // Refresh history after rolling
