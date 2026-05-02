@@ -7,21 +7,6 @@ function App() {
   const [history, setHistory] = useState([])
   const [isRolling, setIsRolling] = useState(false)
 
-  // Fetch initial history from backend when app loads
-  useEffect(() => {
-    fetchHistory()
-  }, [])
-
-  const fetchHistory = async () => {
-    try {
-      const response = await fetch('/api/history')
-      const data = await response.json()
-      setHistory(data)
-    } catch (error) {
-      console.error("Failed to fetch history:", error)
-    }
-  }
-
   const rollDice = async () => {
     setIsRolling(true)
     
@@ -30,8 +15,16 @@ function App() {
       try {
         const response = await fetch('/api/roll')
         const data = await response.json()
-        setCurrentRoll(data.result)
-        fetchHistory() // Refresh history after rolling
+        
+        const newRoll = data.result
+        setCurrentRoll(newRoll)
+        
+        // Update history locally
+        setHistory(prev => {
+          const updated = [{ value: newRoll }, ...prev]
+          return updated.slice(0, 10) // Keep last 10
+        })
+        
       } catch (error) {
         alert("Make sure the backend is running!")
       } finally {
