@@ -31,7 +31,7 @@ cd dice-simulator
 ```bash
 cd backend
 npm install
-npm start
+npm run dev
 ```
 The server will run on `http://localhost:5000`.
 
