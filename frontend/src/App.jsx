@@ -132,7 +132,7 @@ function App() {
           <Dices className="w-12 h-12 text-purple-500 not-italic" />
           DICE.PRO
         </h1>
-        <p className="text-slate-500 font-bold uppercase tracking-widest text-xs">Real-time WebGL Simulation</p>
+        <p className="text-slate-500 font-bold uppercase tracking-widest text-xs">Premium Rolling Experience</p>
       </div>
 
       <div className="w-full aspect-square max-w-sm bg-slate-900 rounded-[3rem] border-4 border-slate-800 shadow-[0_0_100px_rgba(0,0,0,0.5)] relative overflow-hidden ring-1 ring-white/10">

@@ -1,8 +1,8 @@
-# 🎲 DICE.PRO - 3D WebGL Dice Simulator
+# 🎲 DICE.PRO
 
-A professional-grade, full-stack dice rolling application featuring high-fidelity 3D graphics and server-side randomness.
+<img src="https://play-dice-simulator.vercel.app/favicon.svg" width="100" height="100" align="right" />
 
-![Dice Pro Preview](https://play-dice-simulator.vercel.app/favicon.svg)
+A professional-grade, full-stack dice rolling application featuring high-fidelity graphics and server-side randomness.
 
 ## 🚀 Live Demo
 Check it out here: [play-dice-simulator.vercel.app](https://play-dice-simulator.vercel.app/)
