@@ -106,10 +106,18 @@ function App() {
   const [history, setHistory] = useState([])
   const [isRolling, setIsRolling] = useState(false)
 
+  // Initialize sound
+  const rollSound = useMemo(() => new Audio('/sounds_roll.ogg'), []);
+
   const API_BASE = window.location.hostname === 'localhost' ? 'http://localhost:5000' : '';
 
   const rollDice = async () => {
     if (isRolling) return;
+    
+    // Play sound
+    rollSound.currentTime = 0;
+    rollSound.play().catch(e => console.log("Audio play blocked by browser"));
+
     setIsRolling(true)
     setTimeout(async () => {
       try {
