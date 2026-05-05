@@ -58,7 +58,7 @@ The project is configured as a monorepo using `vercel.json`. It automatically ro
 
 ## 🗺️ To do list
 - [ ] **Global Luck**: MongoDB integration to track global roll statistics.
-- [ ] **Audio**: Spatial 3D sound effects for dice collisions.
+- [x] ~~**Audio**: Spatial 3D sound effects for dice collisions.~~
 - [ ] **Customization**: Ability for users to change dice and dot colors.
 
 ## 📄 License
