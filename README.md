@@ -1,8 +1,12 @@
-# 🎲 DICE.PRO
+<div align="center">
+  <h1>🎲 DICE.PRO</h1>
+  <p><b>Experience the ultimate digital dice roll with high-fidelity 3D visuals and guaranteed fairness.</b></p>
+  <p>Built for gamers and developers alike, DICE.PRO combines the power of WebGL with a secure Node.js backend to deliver a seamless, tamper-proof rolling experience directly in your browser.</p>
+  <br />
+  <img src="https://play-dice-simulator.vercel.app/favicon.svg" width="120" height="120" />
+</div>
 
-A professional-grade, full-stack dice rolling application featuring high-fidelity graphics and server-side randomness.
-
-<img src="https://play-dice-simulator.vercel.app/favicon.svg" width="100" height="100" align="center" />
+---
 
 ## 🚀 Live Demo
 Check it out here: [play-dice-simulator.vercel.app](https://play-dice-simulator.vercel.app/)
