@@ -1,8 +1,8 @@
 # 🎲 DICE.PRO
 
-<img src="https://play-dice-simulator.vercel.app/favicon.svg" width="100" height="100" align="center" />
-
 A professional-grade, full-stack dice rolling application featuring high-fidelity graphics and server-side randomness.
+
+<img src="https://play-dice-simulator.vercel.app/favicon.svg" width="100" height="100" align="center" />
 
 ## 🚀 Live Demo
 Check it out here: [play-dice-simulator.vercel.app](https://play-dice-simulator.vercel.app/)
